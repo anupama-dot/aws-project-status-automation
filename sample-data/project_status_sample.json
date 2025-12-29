@@ -1,0 +1,95 @@
+{
+  "projectOverview": {
+    "projectName": "Trades Migration – Legacy System to Target Platform",
+    "projectManager": "Anupama Ban",
+    "reportingPeriod": "15 Dec 2025 – 21 Dec 2025",
+    "projectPhase": "Migration Phase"
+  },
+  "overallStatus": {
+    "ragStatus": "RED",
+    "summary": "Project status is RED due to a 7-day delay in reconciliation sign-off. Migration activities are progressing well, and mitigation plans are in place to maintain the go-live schedule."
+  },
+  "keyAchievements": [
+    "Completed data extraction for 2.3 million trades",
+    "Validated field-level mapping for OTC derivatives",
+    "Refreshed UAT environment with latest migration scripts",
+    "Conducted business walkthrough with Operations and Risk teams"
+  ],
+  "migrationMilestones": [
+    {
+      "milestoneName": "Trade Data Mapping Sign-off",
+      "plannedDate": "2025-12-05",
+      "actualDate": "2025-12-05",
+      "status": "Completed",
+      "dueDate": "2025-12-05"
+    },
+    {
+      "milestoneName": "Dry Run 1 Migration",
+      "plannedDate": "2025-12-10",
+      "actualDate": "2025-12-12",
+      "status": "Delayed",
+      "dueDate": "2025-12-10"
+    },
+    {
+      "milestoneName": "Reconciliation Sign-off",
+      "plannedDate": "2025-12-15",
+      "actualDate": null,
+      "status": "In Progress",
+      "dueDate": "2025-12-15"
+    },
+    {
+      "milestoneName": "Final Migration",
+      "plannedDate": "2025-12-22",
+      "actualDate": null,
+      "status": "Planned",
+      "dueDate": "2025-12-22"
+    }
+  ],
+  "tradeVolumes": [
+    {
+      "tradeType": "Cash Equities",
+      "plannedVolume": 2500000,
+      "migrated": 2300000,
+      "reconciled": 2100000,
+      "percentComplete": 84
+    },
+    {
+      "tradeType": "OTC Derivatives",
+      "plannedVolume": 1800000,
+      "migrated": 1500000,
+      "reconciled": 1300000,
+      "percentComplete": 72
+    },
+    {
+      "tradeType": "FX Trades",
+      "plannedVolume": 1200000,
+      "migrated": 1200000,
+      "reconciled": 1200000,
+      "percentComplete": 100
+    }
+  ],
+  "scheduleAndCostStatus": {
+    "schedule": "Delayed by 2 days due to reconciliation cycle extension",
+    "cost": "On budget",
+    "forecast": "No expected cost overruns"
+  },
+  "risks": [
+    {
+      "id": "R001",
+      "description": "Delay in reconciliation sign-off impacting final migration schedule",
+      "severity": "High",
+      "daysOpen": 5
+    },
+    {
+      "id": "R002",
+      "description": "Limited availability of UAT environment during dry run",
+      "severity": "Medium",
+      "daysOpen": 3
+    }
+  ],
+  "nextSteps": [
+    "Accelerate reconciliation activities with daily status reviews",
+    "Coordinate with Operations team to finalize migration schedule",
+    "Prepare rollback plan in case of unexpected issues during final migration"
+  ]
+}
